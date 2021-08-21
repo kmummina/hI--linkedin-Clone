@@ -15,10 +15,13 @@ body{
 
 
 .navcontainer{
+
+  
+
  
     width: 100%;
     height: 60px;
-    background-color: #fff;
+    /* background-color: #fff; */
     /* position: fixed;
     z-index: 100; */
     box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -27,12 +30,14 @@ body{
 
 .navbar{
 
-   
-  margin: auto;
-   max-width: 70%;
+
+  margin: auto; 
+   max-width: 70%; 
+
+
    height: 60px;
    /* box-shadow: 1px; */
-
+overflow: hidden;
 
     background-color: #fff;
     display: flex;
@@ -40,7 +45,12 @@ body{
     justify-content: space-between;
 
     width: 100%;
- 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 
@@ -61,6 +71,9 @@ body{
 
 .main-post-details{
 
+
+   
+  
     padding-top: 2%;  
      display: flex;
     margin: auto;
@@ -69,6 +82,7 @@ body{
     /* background-color: lightskyblue; */
     justify-content: space-between;
     /* background-color: white; */
+  
 
 }
 
